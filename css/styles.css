@@ -1,12 +1,12 @@
 html{
-    background-color: darkslateblue;
+    background-color: cornflowerblue;
 }
 body {  
-    width: 600px;
+    width: 500px;
     margin: 0 auto;
     background-color: #ff9500;
     padding: 0 20px 20px 20px;
-    border: 5px solid black;
+    border: 3px solid black;
 }
 
 h1 {
@@ -31,6 +31,23 @@ p {
     color: cornflowerblue;
     text-shadow: 2px 2px 1px black;
 }
+p.fraseDeEfeito {
+    font-size: 20px;
+    font-weight: bolder;
+    letter-spacing: 0.1px;
+    text-align: center;
+    color: blueviolet;
+    text-shadow: 1px 1px 1px black;
+}
+p.p1 {
+    font-size: 20px;
+    line-height: 1;
+    letter-spacing: 1px;
+    text-align: center;
+    color: chocolate;
+    text-shadow: 2px 2px 1px black;
+
+}
 li{
     font-size: 24px;
     line-height: 1;
@@ -38,4 +55,17 @@ li{
     text-align: center;
     color: cornflowerblue;
     text-shadow: 1px 1px 1px black;
+}
+button{
+    font-family: "Audiowide", sans-serif;
+    font-size: 25px;
+    font-weight: bolder;
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+    background-color: lawngreen;
+    padding: 10px 0;
+    color: darkcyan;
+    border: 2px solid white;
+
 }
